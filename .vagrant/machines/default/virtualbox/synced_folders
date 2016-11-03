@@ -1,0 +1,1 @@
+{"virtualbox":{"/var/www/c3":{"guestpath":"/var/www/c3","hostpath":"/home/samir/htdocs/c3","disabled":false,"__vagrantfile":true}}}

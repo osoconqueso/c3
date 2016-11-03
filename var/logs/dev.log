@@ -1,0 +1,2 @@
+[2016-10-03 19:14:15] php.DEBUG: unlink(web/bundles/framework): No such file or directory {"type":2,"file":"/private/tmp/Symfony/vendor/symfony/symfony/src/Symfony/Component/Filesystem/Filesystem.php","line":178,"level":28928} []
+[2016-10-16 20:48:38] php.DEBUG: fsockopen(): unable to connect to 127.0.0.1:8000 (Connection refused) {"type":2,"file":"/var/www/c3/vendor/symfony/symfony/src/Symfony/Bundle/FrameworkBundle/Command/ServerCommand.php","line":59,"level":28928} []
