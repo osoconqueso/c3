@@ -1,3 +1,7 @@
 app_homepage:
     path:     /
     defaults: { _controller: AppBundle:App:index }
+
+app_GDC:
+    path:     /ns_gdc
+    defaults: { _controller: AppBundle:App:index }
