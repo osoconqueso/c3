@@ -487,7 +487,7 @@
                   <tag name="cache.pool"/>
                   <argument>AojQLBSy88</argument>
                   <argument>0</argument>
-                  <argument>PHxPN0xsWwbPZfZgnlFCfA</argument>
+                  <argument>CytVp9ltlF6dTj5bXS-cXA</argument>
                   <argument>/var/www/c3/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -500,7 +500,7 @@
                   <tag name="cache.pool"/>
                   <argument>gso0AQ08a5</argument>
                   <argument>0</argument>
-                  <argument>PHxPN0xsWwbPZfZgnlFCfA</argument>
+                  <argument>CytVp9ltlF6dTj5bXS-cXA</argument>
                   <argument>/var/www/c3/var/cache/dev/pools</argument>
                   <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
                   <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -832,7 +832,7 @@
       <tag name="cache.pool"/>
       <argument>cuHe8wrjO1</argument>
       <argument>0</argument>
-      <argument>PHxPN0xsWwbPZfZgnlFCfA</argument>
+      <argument>CytVp9ltlF6dTj5bXS-cXA</argument>
       <argument>/var/www/c3/var/cache/dev/pools</argument>
       <argument type="service" id="monolog.logger.cache" on-invalid="ignore"/>
       <factory class="Symfony\Component\Cache\Adapter\AbstractAdapter" method="createSystemCache"/>
@@ -1568,7 +1568,7 @@
       <argument type="collection">
         <argument type="service">
           <service class="Symfony\Component\Security\Core\Authentication\Provider\AnonymousAuthenticationProvider" public="false">
-            <argument>58042df4c5cbd0.13419587</argument>
+            <argument>581bc35ce9f919.43107841</argument>
           </service>
         </argument>
       </argument>
@@ -1702,7 +1702,7 @@
         <argument type="service">
           <service class="Symfony\Component\Security\Http\Firewall\AnonymousAuthenticationListener" public="false">
             <argument type="service" id="security.token_storage"/>
-            <argument>58042df4c5cbd0.13419587</argument>
+            <argument>581bc35ce9f919.43107841</argument>
             <argument type="service" id="monolog.logger.security" on-invalid="null"/>
             <argument type="service" id="security.authentication.manager"/>
           </service>
@@ -2517,6 +2517,10 @@
       <call method="addPath">
         <argument>/var/www/c3/vendor/doctrine/doctrine-bundle/Resources/views</argument>
         <argument>Doctrine</argument>
+      </call>
+      <call method="addPath">
+        <argument>/var/www/c3/src/AppBundle/Resources/views</argument>
+        <argument>App</argument>
       </call>
       <call method="addPath">
         <argument>/var/www/c3/vendor/symfony/symfony/src/Symfony/Bundle/DebugBundle/Resources/views</argument>

@@ -1,4 +1,6 @@
-  .idea
-  /vendor
-  .vagrant
-  /var
+.idea
+.vagrant
+vendor
+var/cache
+var/logs
+var/sessions

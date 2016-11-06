@@ -3,15 +3,28 @@
     <head>
         <meta charset="UTF-8" />
         <title>North Star Numbers</title>
-
-        {#<link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />#}
-        <script src="/web/scripts/c3.css"></script>
-        <script src="/web/scripts/c3.js"></script>
-        <script src="/web/scripts/d3.js"></script>
+        <link href="{{ asset('scripts/c3.css') }}" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link href="{{ asset('scripts/style.css') }}">
     </head>
     <body>
         {% block body %}{% endblock %}
         {% block javascripts %}{% endblock %}
-    hello!
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2 text-center">Austin-Bell North Star Credits</div>
+        </div>
+        </br>
+        <div class="row">
+            <div id="chart" class="block-center col-md-8 col-md-offset-2"></div>
+        </div>
+
     </body>
+<footer>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-3.1.0.min.js"></script>
+    <script src="http://d3js.org/d3.v3.js"></script>
+    <script src="{{ asset('scripts/c3.js') }}"></script>
+    <script src="{{ asset('scripts/charts.js') }}"></script>
+</footer>
 </html>
